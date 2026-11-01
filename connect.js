@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-async function connectToDatabase() {
+async function connectToMongoDB(url) {
     return mongoose.connect(url);
 }
 
